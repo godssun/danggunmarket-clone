@@ -34,3 +34,21 @@
   align-items: center;
   padding-bottom: 10px;
 }
+
+@keyframes icon-jump {
+  0% {
+    transform: translateY(0px);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  70% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.nav__btn:hover .nav__link--icons {
+  animation: 1s icon-jump;
+}
