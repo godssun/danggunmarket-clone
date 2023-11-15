@@ -1,0 +1,36 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #ededef;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav__link--icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 50px;
+}
+
+.nav__btn--text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
